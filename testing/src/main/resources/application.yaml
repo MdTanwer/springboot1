@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: testing
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testingdb
+    username: postgres
+    password: mysecretpassword
+
+# docker run --name local-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
